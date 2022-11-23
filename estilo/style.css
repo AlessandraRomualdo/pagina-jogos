@@ -16,6 +16,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: var(--cor3);
 }
@@ -46,7 +47,7 @@ i#burguer:hover{
     background-color: var(--cor3);
     transition: 1.2s;
 }
-ul a{
+ul li{
    list-style: none;
    text-decoration: none;
    display: block;
@@ -58,7 +59,7 @@ ul a{
    color: var(--cor1);
    font-size: 1.1em;
 }
-ul a:hover{
+ul li:hover{
     background-color: var(--cor3);
     transition: 1.2s;
 }
