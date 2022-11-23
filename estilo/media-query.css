@@ -25,7 +25,9 @@
         display: block ;
     }
     ul > li{
-        display: inline-block
+        display: inline-block;
+        border: none;
+        
     }
     article{
         width: 700px;
