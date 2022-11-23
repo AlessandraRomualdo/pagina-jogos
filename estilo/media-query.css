@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+@media print{
+    img{
+        display: none;
+    }
+    menu, i#burguer{
+        display: none;
+    }
+    article{
+        width: 90%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    font{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    i#burguer{
+        display: none;
+    }
+    menu{
+        display: block ;
+    }
+    ul > li{
+        display: inline-block
+    }
+    article{
+        width: 700px;
+        margin: 15px auto 15px auto;
+        
+    }
+    img{
+        width: 650px;
+    }
+}
