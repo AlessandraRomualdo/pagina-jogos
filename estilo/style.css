@@ -30,13 +30,14 @@ h1{
     text-shadow: 2px 2px 4px white;
 }
 menu{
-    
+    display: none;
 }
 i#burguer{
    display: block;
    text-align: center;
    padding: 10px;
    border-top: 1px solid var(--cor3);
+   border-bottom:  1px solid var(--cor3);
    cursor: pointer;
    color: var(--cor1);
    font-size: 1.1em;
@@ -67,7 +68,7 @@ main{
 article{
     background-color: white;
     width: 380px;
-    margin: auto;
+    margin: 15px auto 15px auto;
     padding: 20px;
     border-radius: 10px;
     text-align: justify;
