@@ -61,9 +61,12 @@ ul a:hover{
     background-color: var(--cor3);
     transition: 1.2s;
 }
+main{
+    width: 98vw;
+}
 article{
     background-color: white;
-    width: 700px;
+    width: 380px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
@@ -84,7 +87,7 @@ p{
     text-indent: 15px;
 }
 img{
-    width: 650px;
+    width: 350px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.689);
     margin: 20px auto;
@@ -108,7 +111,7 @@ font p{
     font-size: 1em;
 }
 footer{
-    width: auto;
+    width: 98vw;
     margin: auto;
     background-color: var(--cor4);
     text-align: center;
