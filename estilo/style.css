@@ -32,6 +32,19 @@ h1{
 menu{
     
 }
+i#burguer{
+   display: block;
+   text-align: center;
+   padding: 10px;
+   border-top: 1px solid var(--cor3);
+   cursor: pointer;
+   color: var(--cor1);
+   font-size: 1.1em;
+}
+i#burguer:hover{
+    background-color: var(--cor3);
+    transition: 1.2s;
+}
 ul a{
    list-style: none;
    text-decoration: none;
@@ -75,4 +88,18 @@ img{
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.689);
     margin: 20px auto;
+}
+font a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor1);
+    font-family: var(--font-titulo);
+    background-color: var(--cor5);
+}
+font a:hover{
+    color: var(--cor4);
+    background-color: var(--cor1);
+    transition: 1.2s;
+    border: 1px solid var(--cor5);
 }
