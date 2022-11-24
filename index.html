@@ -16,16 +16,16 @@
         <i  id="burguer" onclick="clickMenu()" class="material-icons">menu</i>
         <menu id="menu">
             <ul class="abas">
-                <li class="aba selecionado" id="sobrevivencia-menu">Jogos de Sobrevivência e Cooperativo</li>
-                <li class="aba"id="survivalist-menu" >The Survivalist</li>
-                <li class="aba" id="rust-menu">Rust</li>
-                <li class="aba" id="dayz-menu">DayZ</li>
-                <li class="aba" id="florest-menu">The Florest</li>
+                <li><a class="aba selecionado" id="inicio">Jogos de Sobrevivência e Cooperativo</a></li>
+                <li><a class="aba" id="surv">The Survivalist</a></li>
+                <li><a class="aba" id="rust">Rust</a></li>
+                <li><a class="aba" id="dayz">DayZ</a></li>
+                <li><a class="aba" id="florest">The Florest</a></li>
             </ul>
         </menu>
     </header>
     <main>
-        <article class="informacao selecionado" id="informacao-sobrevivencia">
+        <article class="selecionado hide" id="informacao-sobrevivencia">
             <h2>Jogos de sobrevivência e cooperativos</h2>
             <p>Os jogos de sobrevivência são considerados
                 uma extensão dos gêneros de ação e 
@@ -77,7 +77,7 @@
             </font>  
         </article>
 
-        <article  class="informacao" id="informacao-survivalist">
+        <article  class="hide" id="informacao-survivalist">
             <h2>The Survivalists</h2>
             <p>The Survivalists é um jogo de aventura cooperativo do Team 17 ambientado no universo The Escapists.
                 Ao acordar na praia de uma ilha misteriosa, enfrente as ameaças da ilha! Explore, cace, construa, 
@@ -98,7 +98,7 @@
             </font>
         </article>
 
-        <article  class="informacao" id="informacao-rust">
+        <article  class="hide" id="informacao-rust">
             <h2>Rust</h2>
             <p>Um jogo de sobrevivência onde seu universo não tem história, com isso seus desenvolvedores podem
                 alterar e adicionar itens ao universo do Rust.
@@ -127,7 +127,7 @@
                 <a href="https://store.steampowered.com/app/252490/Rust/" target="_blank">Rust - Steam</a>
             </font>
         </article>
-        <article  class="informacao" id="informacao-dayz">
+        <article  class="hide" id="informacao-dayz">
             <h2>DayZ</h2>
             <p>DayZ um jogo de sobrevivência pós apocalitico com zumbis. Onde você vive na pele de um dos pucos sobreviventes
                 lutando para sobreviver contra fome, radiação, clima, animais selvagens, mortos vivos e outros sobreviventes.
@@ -158,7 +158,7 @@
             </font>     
         </article>
 
-        <article  class="informacao" id="informacao-florest">
+        <article  class="hide" id="informacao-florest">
             <h2>The Florest</h2>
             <p>
                 Como o único sobrevivente de um acidente de avião de passageiros, você se encontra em uma floresta

@@ -67,7 +67,12 @@ ul li:hover{
 main{
     width: 98vw;
 }
-
+.hide{
+    display: none;
+}
+.selecionado{
+    display: block;
+}
 article{
     background-color: white;
     width: 380px;
