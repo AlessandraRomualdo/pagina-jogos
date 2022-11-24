@@ -1,6 +1,6 @@
 Página de Jogos 
 <div>
-<a href="https://alessandraromualdo.github.io/pagina-jogos/" tarqet="_blank">Acesse aqui</a>
+<a href="https://alessandraromualdo.github.io/pagina-jogos/" target="_blank">Acesse aqui</a>
 </div>
 <div>
   <p>Neste projeto foi usado HTML, CSS e JavaScript.</p>
